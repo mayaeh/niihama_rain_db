@@ -1,0 +1,160 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	padding: 10px;
+}
+
+h1 {
+	text-align: center;
+	font-size: large;
+}
+
+h2 {
+	margin-bottom: 20px;
+	font-size: large;
+}
+
+h3 {
+	padding-top: 5px;
+}
+table {
+	border: 1px solid #000;
+	text-align: center;
+/*	font-size: medium;
+/*	width: 100%;*/
+}
+
+caption {
+	padding: 0;
+	color: #000;
+}
+
+th {
+	border: 1px solid #000;
+	margin: 0;
+	padding: 4px;
+	background-color: #dee;
+}
+
+td {
+	border: 1px solid #000;
+	margin: 0;
+	padding: 4px;
+}
+
+tr.r0 {
+
+}
+
+tr.r1 {
+	background-color: #e0e0e0;
+}
+
+tr.total {
+	background-color: #dee;
+}
+
+div.topMenu {
+	margin-top: 20px;
+	padding-left: 100px;
+	margin-bottom: 20px;
+}
+
+div.topMenu ul li {
+	display: inline-block;
+	padding-right: 5px;
+}
+
+#dateSelector {
+	margin-bottom: 5px;
+	padding-left: 100px;
+}
+
+#dateSelector span {
+	margin-right: 15px;
+}
+
+#mainTable {
+	padding-left: 100px;
+	margin-bottom: 20px;
+}
+
+#chart1 {
+	margin-left: 10px;
+	margin-bottom: 20px;
+	width: 80%;
+}
+
+div.topJumper {
+	float: right;
+	margin-right: 50px;
+}
+
+#shellResponseContainer {
+
+}
+
+#calendarTableContainer {
+/*	margin-left: 20px;*/
+	margin-right: auto;
+}
+
+
+#calendarTableContainer table {
+	width: 250px;	
+}
+
+div.monthSelectContainer {
+/*	width: 90%;*/
+	font-size: large;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.monthSelectContainer p {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#footerContainer {
+	padding-left: 100px;
+	font-size: small;
+	clear: both;
+}
+
+#footerContainer ul li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+
+.sunday {
+	color: #C30;
+}
+
+.saturday {
+	color: #03C;
+}
+
+.weekday {
+	color: black;
+}
+
+.today {
+	background-color: silver;
+}
+
+.hidden {
+	display: none;
+}
+
