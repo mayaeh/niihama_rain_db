@@ -10,7 +10,7 @@
  *  @return mixed 配列から取り出した値、$keyが存在しなければ
  *                $defaultを返す
  *
- * http://labs.unoh.net/2006/11/e_notice.html
+ * http://unoh.github.io/2006/11/01/e_notice.html
  */
 function array_get_value ( $array , $key , $default = NULL )
 {
